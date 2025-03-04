@@ -1,0 +1,16 @@
+Account newAcc = new Account(Name = "Test Account");
+insert newAcc;
+
+Account existingAcc = [SELECT if, Name FROM Account where NAME="Test Account" LIMIT !];
+
+existingAcc.Name = "Updated Test Account";
+
+update existingAcc;
+
+Account upsertAcc = new Account(id = existingAcc.id, Name = "UpsertedAcc");
+
+upsert upsertAcc;
+
+Account accToRestore = [SELECT id FROM Account WHERE Name = "Updated Test Account" ALL ROWS LIMIT 1];
+
+undelete accToRestore;
