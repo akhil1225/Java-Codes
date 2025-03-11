@@ -3,7 +3,7 @@ These are some codes that I've written, whilst learning Java.
 
 # Java Learning Repository
 
-This repository contains my Java codes as I learn the language. It serves as a record of my progress and a showcase of my skills.
+This repository contains my Java codes as I learn the language. It serves as a record of my progress and a showcase of my skills in the said language.
 
 
 
