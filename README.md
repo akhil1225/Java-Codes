@@ -1,4 +1,4 @@
-This Repository server as the proof for my Work in Java. 
+This Repository serves as the proof for my Work in Java. 
 These are some codes that I've written, whilst learning Java.
 
 # Java Learning Repository
